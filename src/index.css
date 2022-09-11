@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .navlink-active {
+        @apply text-sky-500
+    }
+
+    .bar {
+        @apply h-1.5 w-full bg-sky-500 block rounded-sm 
+    }
+
+    
+}
