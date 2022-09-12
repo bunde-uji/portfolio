@@ -12,7 +12,7 @@ function HomePage() {
     const {menuActive} = useContext(AppContext);
 
     return (  
-        <div className='h-[100vh] md:h-[110vh] w-full relative' style={{background: `url(${bg})`, backgroundPosition: 'center'}}>
+        <div className='h-[100vh] md:h-[110vh] w-full relative' style={{background: `url(${bg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
             {/* <video src={bgVideo} autoPlay muted className='object-cover h-full w-full absolute opacity-95'></video> */}
             <div className={`w-full h-full flex flex-col justify-center items-center absolute transform translate-y-[-10%] animate__animated animate__fadeIn`}>
                 <h2 className='text-white text-3xl text font-bold mb-2 drop-shadow-xl'>Hi there,</h2>
