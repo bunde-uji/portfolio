@@ -7,7 +7,7 @@ import tailwind from '../assets/tailwind-css-2.svg';
 import materialize from '../assets/materializecss.svg';
 import bootstrap from '../assets/bootstrap-5-1.svg';
 import github from '../assets/github.svg';
-import img from '../assets/image1.jpeg';
+import img from '../assets/image1.png';
 
 
 function AboutPage() {
@@ -31,7 +31,7 @@ function AboutPage() {
                 </div>
 
                 <div className='w-full md:w-2/5 flex justify-center animate__animated animate__slideInRight'>
-                    <img src={img} alt="" className='w-44 sm:w-56 md:w-80 h-auto rounded-lg' />
+                    <img src={img} alt="" className='w-44 h-44 sm:h-56 sm:w-56 md:w-80 md:h-80 rounded-lg' />
                 </div>
             </div>
         </div>
