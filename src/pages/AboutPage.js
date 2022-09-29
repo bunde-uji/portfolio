@@ -12,9 +12,9 @@ import img from '../assets/image1.png';
 
 function AboutPage() {
     return (  
-        <div className='min-h-[78vh] w-full bg-[#0d0d0d] p-2 text-slate-400'>
+        <div className='min-h-[78vh] w-full bg-[#0d0d0d] p-2 text-slate-400 overflow-hidden'>
             <h2 className='text-xl my-4 ml-4 animate__animated animate__fadeIn'>ABOUT ME</h2>
-            <div className='flex flex-col-reverse md:flex-row'>
+            <div className='flex flex-col-reverse md:flex-row overflow-hidden'>
                 <div className='w-full md:w-3/5 px-2 md:px-4 tracking-wide py-2  animate__animated animate__slideInLeft'>
                     <h3 className='mb-3 text-xl'>My name is Bunde Uji. I'm a front-end developer from Nigeria, mainly focused on web-based work, for now. I love writing code to bring beautiful and interactive websites to life, in order to give users the best possible experience.</h3>
                     <p className='mb-3 text-xl'>The technologies I use include:</p>
@@ -30,7 +30,7 @@ function AboutPage() {
                     </div>
                 </div>
 
-                <div className='w-full md:w-2/5 flex justify-center animate__animated animate__slideInRight'>
+                <div className='w-full md:w-2/5 flex justify-center animate__animated animate__slideInRight overflow-hidden'>
                     <img src={img} alt="" className='w-44 h-44 sm:h-56 sm:w-56 md:w-80 md:h-80 rounded-lg' />
                 </div>
             </div>
