@@ -28,7 +28,7 @@ function ContactPage() {
                 <input type="email" name='email' placeholder='Email' className='my-2 bg-[#1f1f1f] rounded-md px-4 py-2 text-sm text-gray-300 outline-none h-10 w-full' />
                 <textarea type="text" rows='10' name='message' placeholder='Type your message' className='my-2 bg-[#1f1f1f] rounded-md px-4 py-2 text-sm text-gray-300 outline-none w-full' />
                 
-                <input type='submit' value='Submit' className='text-slate-200 font-[400] bg-sky-500 hover:bg-sky-400 w-full px-8 py-2.5 rounded-md text-center mt-3' />
+                <input type='submit' value='Submit' className='text-slate-200 font-[400] bg-sky-500 hover:bg-sky-400 w-full h-[15%] px-8 pt-1 pb-3 sm:py-2.5 rounded-md text-center mt-3' />
             </form>
         </div>
     );

@@ -9,7 +9,7 @@ function Footer() {
 
             <a href="https://www.linkedin.com/in/bunde-uji-7a3834173/" target='_blank' rel="noreferrer"><i className="fa-brands fa-linkedin text-2xl text-slate-200 mx-2 hover:text-sky-500"></i></a>
 
-            <a href="https://twitter.com/pseudobadguy" target='_blank' rel="noreferrer"><i className="fa-brands fa-twitter text-2xl text-slate-200 mx-2 hover:text-sky-500"></i></a>
+            <a href="https://twitter.com/bundeuji" target='_blank' rel="noreferrer"><i className="fa-brands fa-twitter text-2xl text-slate-200 mx-2 hover:text-sky-500"></i></a>
         </div>
     );
 }

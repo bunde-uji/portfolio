@@ -17,7 +17,7 @@ function Navbar() {
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'bunde_uji_resume.pdf';
+                alink.download = 'resume_bunde_uji.pdf';
                 alink.click();
             })
         })
