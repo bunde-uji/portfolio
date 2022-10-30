@@ -20,7 +20,7 @@ function ContactPage() {
     };
 
     return (  
-        <div className='bg-[#0d0d0d] h-[78vh] flex flex-col justify-center items-center px-1'>
+        <div className='bg-[#0d0d0d] h-[78vh] flex flex-col justify-center items-center px-[2px]'>
             <h3 className='text-slate-300 text-2xl mb-5 text-center animate__animated animate__fadeIn'>Would you like to reach out? Do well to send an email.</h3>
 
             <form ref={form} onSubmit={sendEmail} className='w-4/5 md:w-2/6 h-2/3 bg-[#2a2a2a] flex flex-col p-4 rounded-md items-center animate__animated animate__fadeIn'>

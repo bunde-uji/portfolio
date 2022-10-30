@@ -20,7 +20,7 @@ function ProjectsPage() {
             <div className='flex flex-col md:flex-row items-center md:items-stretch justify-center md:justify-between mt-2 mb-5'>
                 <Card img={optimus} repo='https://github.com/bunde-uji/optimus-fitness' url='https://optimusfitness.netlify.app' name='Optimus Fitness' description='E-commerce website with cart and feature to search products.' stack='React, Commerce.js' />
 
-                <Card img={coinfi} repo='https://github.com/bunde-uji/coinfi' url='https://coinfi.netlify.app' name='Coinfi' description='Cryptocurrencey website with real-time data on prices of the most popular coins.' stack='React, CoinGecko API' />
+                <Card img={coinfi} repo='https://github.com/bunde-uji/coinfi' url='https://coinfi.netlify.app' name='Coinfi' description='Cryptocurrency website with real-time data on prices of the most popular coins.' stack='React, CoinGecko API' />
 
                 <Card img={quantum} repo='https://github.com/bunde-uji/landing-page-quantum-designs' url='https://quantumdesigns.netlify.app' name='Quantum Designs' description='Landing page for an interior design firm.' stack='HTML, CSS, JavaScript, Materilize CSS' />
             </div>
