@@ -10,7 +10,7 @@ function Navbar() {
     const {menuActive, setMenuActive} = useContext(AppContext);
 
     function handleClick(){
-        fetch('resume_bunde_uji.pdf').then(response => {
+        fetch('resume_bundeuji.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);

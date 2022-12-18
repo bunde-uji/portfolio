@@ -3,6 +3,7 @@ import Card from '../components/Card';
 import coinfi from '../assets/coinfi.png';
 import optimus from '../assets/optimus.png';
 import quantum from '../assets/quantum.png';
+import repute from '../assets/repute.png';
 import {AppContext} from  '../App';
 
 
@@ -19,6 +20,8 @@ function ProjectsPage() {
 
             <div className='flex flex-col md:flex-row items-center md:items-stretch justify-center md:justify-between mt-2 mb-5'>
                 <Card img={optimus} repo='https://github.com/bunde-uji/optimus-fitness' url='https://optimusfitness.netlify.app' name='Optimus Fitness' description='E-commerce website with cart and feature to search products.' stack='React, Commerce.js' />
+
+                <Card img={repute} repo='https://github.com/workshopapps/reputationmanagement.web' url='https://repute.hng.tech' name='Repute' description='Reputation management service for businesses and brands.' stack='React, Tailwind CSS, .NET' />
 
                 <Card img={coinfi} repo='https://github.com/bunde-uji/coinfi' url='https://coinfi.netlify.app' name='Coinfi' description='Cryptocurrency website with real-time data on prices of the most popular coins.' stack='React, CoinGecko API' />
 
